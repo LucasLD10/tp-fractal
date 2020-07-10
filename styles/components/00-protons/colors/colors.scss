@@ -1,21 +1,8 @@
 :root {
-  --colorPrimary: #ed0661;
+  --colorPrimary: #E16259;
+  --colorSecondary: #EB5757;
 
-  --colorTextMain: #222222;
-  --colorTextSecondary: #666666;
+  --colorTextMain: #111111;
+  --colorTextSecondary: rgba(0, 0, 0, 0.6);
   --colorTextReversed: #ffffff;
-
-  --colorSuccess: #38c138;
-  --colorSuccessLight: #c8f7b9;
-  --colorSuccessDark: #076b07;
-
-  --colorInfo: #dbf9eb;
-  --colorWarning: #f9e9db;
-
-  --colorCode: #006b89;
-  --colorCodeLight: #c8f0fd;
-
-  --colorQuestion: #e7d3f5;
-
-  --colorInputBorder: #666666;
 }

@@ -1,0 +1,20 @@
+.m-pub {
+  display: inline-block;
+  background: rgb(249, 245, 241);
+  padding: 20px;
+  p {
+    margin-top: 20px;
+    font-family: var(--fontFamilyMedium);
+  }
+  h4 {
+    color: #040404;
+    font-family: var(--fontFamilyRegular);
+    font-size: var(--fontSizeS);
+    margin-top: 20px;
+  }
+  h5 {
+    color: var(--colorTextSecondary);
+    font-size: var(--fontSizeS);
+    font-family: var(--fontFamilyRegular);
+  }
+}

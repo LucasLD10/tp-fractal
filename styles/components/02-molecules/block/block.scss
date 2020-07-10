@@ -1,4 +1,4 @@
-.o-header {
+.m-block {
   img {
     display: block;
     margin: 0 auto;
@@ -8,12 +8,12 @@
   }
   h1 {
     font-family: var(--fontFamilyBold);
-    font-size: var(--fontSizeXXXL);
+    font-size: var(--fontSizeXL);
     line-height: var(--lineHeightMain);
   }
   h2 {
     font-family: var(--fontFamilyRegular);
-    font-size: var(--fontSizeL);
+    font-size: var(--fontSizeM);
     color: var(--colorTextSecondary);
     line-height: var(--lineHeightLarge);
   }

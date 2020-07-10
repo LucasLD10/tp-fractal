@@ -1,30 +1,37 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.woff2') format('woff2'),
+    src: url('#{$file-path}.woff') format('woff'),
       url('#{$file-path}.woff') format('woff');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
-@include font('Oswald', 'fonts/Oswald/Oswald-Regular', 400, normal);
-@include font('Oswald', 'fonts/Oswald/Oswald-Light', 300, normal);
-@include font('Roboto', 'fonts/Roboto/Roboto-Regular', 400, normal);
-@include font('Roboto', 'fonts/Roboto/Roboto-Bold', 900, normal);
-@include font('Roboto', 'fonts/Roboto/Roboto-Italic', 400, italic);
+@include font('Inter-bold', 'fonts/Inter/inter-ui-bold', 700, normal);
+@include font('Inter-medium', 'fonts/Inter/inter-ui-medium', 400, normal);
+@include font('Inter-regular', 'fonts/Inter/inter-ui-regular', 300, normal);
 
 :root {
-  --fontFamilyTitle: Oswald, sans-serif;
-  --fontFamilyMain: Roboto, sans-serif;
-  --fontFamilyCode: monospace;
+  --fontFamilyBold: Inter-bold, sans-serif;
+  --fontFamilyMedium: Inter-medium, sans-serif;
+  --fontFamilyRegular: Inter-regular, sans-serif;
 
-  --fontSizeXXL: 80px;
-  --fontSizeXL: 32px;
-  --fontSizeL: 24px;
-  --fontSizeM: 18px;
+  --fontSizeXXXL: 50px;
+  --fontSizeXXL: 30px;
+  --fontSizeXL: 22px;
+  --fontSizeL: 17px;
+  --fontSizeM: 15px;
   --fontSizeS: 14px;
+  --fontSizeXS: 12px;
 
-  --lineHeightMain: 1.5;
-  --lineHeightLarge: 2;
+  --lineHeightLarge: 1.5;
+  --lineHeightMain: 1.25; 
+  --lineHeightSmall: 1; 
+
+  --letterSpacing: -0.025em;
 }
+
+//margin-top: 0px; margin-bottom: 0px; line-height: 1; 
+//font-weight: 700; text-align: center; color: rgb(17, 17, 17); 
+//font-size: 50px; letter-spacing: -0.025em;
