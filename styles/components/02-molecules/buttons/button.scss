@@ -1,0 +1,14 @@
+.m-button {
+  font-family: var(--fontFamilyBold);
+  font-size: var(--fontSizeS);
+  display: block;
+  width: 320px;
+  background-color: var(--colorPrimary);
+  border: 1px solid rgb(190, 86, 67);
+  padding: 10px 12px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--colorTextReversed);
+  line-height: var(--lineHeightSmall);
+  border-radius: var(--borderRadius);
+}

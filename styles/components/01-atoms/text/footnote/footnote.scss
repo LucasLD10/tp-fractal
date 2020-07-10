@@ -1,6 +1,20 @@
 .a-footnote {
-  color: var(--colorTextReversed);
-  font-size: var(--fontSizeSmall);
-  font-family: var(--fontFamilyMain);
-  line-height: var(--lineHeightMain);
+  margin: 20px 0;
+  h2 {
+    font-family: var(--fontFamilyBold);
+    font-size: var(--fontSizeM);
+    line-height: var(--lineHeightMain);
+  }
+  hr {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+  }
+  p {
+    font-family: var(--fontFamilyMedium);
+    font-size: var(--fontSizeS);
+  }
+  p:hover {
+    background-color: rgba(239, 238, 236, 1);
+  }
 }
